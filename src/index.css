@@ -19,7 +19,7 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 6px double;
+  border-bottom: 6px double #555358;
 }
 
 h1 {
@@ -35,4 +35,48 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.example {
+  margin: 10px;
+  width: 45%;
+  border: 1px solid #555358;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.example img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.example .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+  align-items: left;
 }
