@@ -1,40 +1,49 @@
 body {
-  background-color: #ede8ec;
+  background-image: url("https://i.imgur.com/REy9HbA.jpeg");
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  color: #555358;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 .Header {
   margin: 0 8px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: 6px double #555358;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 a {
   color: inherit;
+  font: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .Header nav {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: whitesmoke;
+  color: rgb(3, 86, 98);
+  padding: 10px;
+  font-size: 26px;
 }
 
 .Projects {
@@ -45,13 +54,14 @@ a {
 }
 
 .example {
-  margin: 10px;
+  margin-top: 30px;
   width: 45%;
   border: 1px solid #555358;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(2, 51, 59, 0.5);
 }
 
 h2 {
@@ -60,8 +70,8 @@ h2 {
 }
 
 .example img {
-  height: 300px;
-  width: 300px;
+  height: 50%;
+  width: 50%;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 15px;
