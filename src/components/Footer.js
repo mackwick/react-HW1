@@ -1,7 +1,7 @@
 // the component function
 const Footer = (props) => {
   //The Components Returned JSX
-  return <div className="Footer"> This is Footer</div>;
+  return <div className="Footer"> Copyright © 2024. MackWick GA Designs. </div>;
 };
 
 // export the component

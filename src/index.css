@@ -90,3 +90,11 @@ li {
   list-style: none;
   align-items: left;
 }
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
